@@ -18,7 +18,7 @@ func main() {
 	e.Logger.Fatal(e.Start(":1323"))
 
 	fmt.Println("done")
-
+	fmt.Println("checkout")
 }
 
 func handleScrape(c echo.Context) error {
