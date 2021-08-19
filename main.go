@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"github.com/labstack/echo"
 	"jobScrapper/scrapper"
 	"os"
@@ -15,6 +16,8 @@ func main() {
 	e.POST("/scrape", handleScrape)
 	// Start server
 	e.Logger.Fatal(e.Start(":1323"))
+
+	fmt.Println("done")
 
 }
 
