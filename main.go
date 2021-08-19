@@ -19,7 +19,7 @@ func main() {
 
 
 
-	fmt.Println("done")
+:Q	fmt.Println("done")
 	fmt.Println("checkoute")
 }
 
